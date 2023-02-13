@@ -76,6 +76,15 @@ li:last-child {
   font-size: 14px;
 } */
 
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+
+  padding: 50px 0;
+  width: 500px;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px;
