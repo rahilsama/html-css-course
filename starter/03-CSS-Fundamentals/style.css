@@ -85,6 +85,13 @@ aside {
   width: 500px;
 }
 
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px;
@@ -163,4 +170,9 @@ a:active {
 
 nav {
   font-size: 18px;
+}
+
+.post-pic {
+  width: 100%;
+  height: auto;
 }
