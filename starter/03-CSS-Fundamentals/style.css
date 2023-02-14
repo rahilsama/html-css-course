@@ -42,8 +42,9 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 h3 {
@@ -172,6 +173,7 @@ a:active {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 .post-pic {
@@ -195,4 +197,30 @@ nav a:link {
   left: 0; */
   bottom: 0;
   right: 0;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+p::first-line {
+  /* color: red; */
+}
+
+h3 + p::first-line {
+  /* color: red; */
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline;
+  padding: 5px 10px;
+
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
