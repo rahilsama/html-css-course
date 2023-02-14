@@ -5,6 +5,7 @@
 }
 
 body {
+  /* position: relative; */
   color: #444;
   font-family: sans-serif;
 
@@ -86,6 +87,7 @@ aside {
 }
 
 .container {
+  position: relative;
   width: 700px;
   /* margin-left: auto;
   margin-right: auto; */
@@ -175,4 +177,22 @@ nav {
 .post-pic {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  padding-right: 30px;
+}
+
+.like-btn {
+  position: absolute;
+
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+
+  /* top: 0;
+  left: 0; */
+  bottom: 0;
+  right: 0;
 }
