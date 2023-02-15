@@ -267,12 +267,11 @@ nav p {
 } */
 
 /* Using Floats */
-.author-img {
+/* .author-img {
   float: left;
 }
 
 .author {
-  /* padding-left: 80px; */
   margin-top: 10px;
   margin-left: 10px;
   float: left;
@@ -296,13 +295,11 @@ nav {
   display: block;
 }
 article {
-  /* background-color: green; */
   width: 825px;
   float: left;
 }
 
 aside {
-  /* background-color: red; */
   width: 300px;
   float: right;
 }
@@ -310,5 +307,4 @@ aside {
 footer {
   width: 1200;
   clear: both;
-  /* background-color: blue; */
-}
+} */
