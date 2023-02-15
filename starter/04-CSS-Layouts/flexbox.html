@@ -40,8 +40,29 @@
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .el {
+        /*
+        DEFAULTS;
+        flex-grow= 0;
+        flex-shrink= 1;
+        flex-basis = auto;
+        */
+        flex-basis: 100px;
+        /*flex-grow: 1;*/
+      }
+
+      .el--1 {
+        align-self: flex-start;
+        flex-grow: 1;
       }
     </style>
+
+    <!--  -->
   </head>
   <body>
     <div class="container">
