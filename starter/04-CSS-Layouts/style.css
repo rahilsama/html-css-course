@@ -308,3 +308,18 @@ footer {
   width: 1200;
   clear: both;
 } */
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+article {
+  /* flex: 0 0 825px; */
+  flex: 1;
+  margin-bottom: 0;
+}
+aside {
+  flex: 0 0 300px;
+}
